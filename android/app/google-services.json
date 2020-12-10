@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "265940884534",
+    "firebase_url": "https://bmg-guncel.firebaseio.com",
+    "project_id": "bmg-guncel",
+    "storage_bucket": "bmg-guncel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265940884534:android:0b42bd103a5dfc1f1ecc97",
+        "android_client_info": {
+          "package_name": "com.example.bmg_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265940884534-650tk45thl1fosmngnhmppjm89fpebtf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_cfT9JQ_TlMTDDTiVQ1xFn3LUPg9v8Eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265940884534-650tk45thl1fosmngnhmppjm89fpebtf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
