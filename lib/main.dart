@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-
-import 'auth_type_selector.dart';
+import 'authentication_Module/auth_type_selector.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,3 +1,4 @@
+import 'package:bmg_project/authentication_Module/screens/home_page.dart';
 import 'package:flutter/material.dart';
 import 'questions.dart';
 
@@ -57,7 +58,13 @@ class _SoruSayfasiState extends State<SoruSayfasi> {
               child: new Text("kapat"),
               onPressed: () {
 
-                Navigator.of(context).pop(); // ekrandaki widgeti kapatır.
+                Navigator.pushReplacement(
+                  // sadece push kullanılırsa çıkıştan sonra geri giriş yapmış gibi görünüyor.Bu sayfayı bir sonrakinin üzreine yazar.
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => HomePage(),
+                  ),
+                );
 
                 setState(() {
                 test_1.resetTest();
